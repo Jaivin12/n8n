@@ -1,153 +1,26 @@
-# Day 1 - n8n Installation and First Workflow
+## Day 1 - First Gmail Workflow
 
-## Objective
+### Workflow Name
 
-Set up n8n on my local machine and successfully send my first automated email using Gmail.
+Day 1 - Gmail Test Email Workflow
 
----
+### Workflow Structure
 
-## System Information
+Manual Trigger → Gmail Send Email
 
-- Operating System: Windows 11
-- Node.js Version: v22.23.1
-- npm Version: 10.9.8
+### What I Did
 
----
+- Created a new workflow in n8n
+- Added a Manual Trigger node
+- Added a Gmail Send Email node
+- Connected Gmail credentials
+- Sent a test email successfully
+- Confirmed that the email was received
+- Exported the workflow JSON for documentation
 
-## Installation
+### Key Learning
 
-Verified Node.js installation:
-
-```bash
-node -v
-```
-
-Output:
-
-```
-v22.23.1
-```
-
-Verified npm:
-
-```bash
-npm -v
-```
-
-Output:
-
-```
-10.9.8
-```
-
-Installed n8n:
-
-```bash
-npm install -g n8n
-```
-
----
-
-## Issue Faced
-
-Running:
-
-```bash
-n8n
-```
-
-Resulted in:
-
-```
-Error: Command "start" not found
-```
-
-### Solution
-
-Started n8n using:
-
-```bash
-npx n8n
-```
-
-This successfully launched the editor.
-
----
-
-## Accessing n8n
-
-Opened in browser:
-
-```
-http://localhost:5678
-```
-
----
-
-## Gmail Integration
-
-Created a Gmail credential.
-
-Granted Google OAuth permissions.
-
-Successfully sent a test email.
-
-Workflow:
-
-Manual Trigger
-↓
-
-Gmail Send Email
-
----
-
-## Key Learnings
-
-- n8n is a workflow automation platform.
-- Workflows consist of connected nodes.
-- Manual Trigger is useful for testing.
+- Manual Trigger is useful for testing workflows.
 - Gmail node can send emails after authentication.
-- Credentials are securely stored by n8n.
-- Workflows are saved locally.
-
----
-
-## Understanding npx
-
-Currently using:
-
-```bash
-npx n8n
-```
-
-This starts a local n8n server.
-
-The server stops when Command Prompt is closed.
-
-However:
-
-- Workflows remain saved.
-- Credentials remain saved.
-- Settings remain saved.
-
-To reopen n8n:
-
-```bash
-npx n8n
-```
-
-Then open:
-
-```
-http://localhost:5678
-```
-
----
-
-## Next Goals
-
-- Read contacts from an Excel file
-- Send personalized emails
-- Process contacts in batches
-- Add delays between emails
-- Build a complete promotional email campaign workflow
+- n8n workflows are saved locally.
+- Workflows can be exported as JSON and stored in GitHub.

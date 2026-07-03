@@ -1,0 +1,28 @@
+[
+  {
+    "accepted": [
+      "jaivin2525@gmail.com"
+    ],
+    "rejected": [],
+    "ehlo": [
+      "SIZE 35882577",
+      "8BITMIME",
+      "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+      "ENHANCEDSTATUSCODES",
+      "PIPELINING",
+      "CHUNKING",
+      "SMTPUTF8"
+    ],
+    "envelopeTime": 864,
+    "messageTime": 725,
+    "messageSize": 1847,
+    "response": "250 2.0.0 OK  1783152423 98e67ed59e1d1-38097d81bd9sm3816492a91.1 - gsmtp",
+    "envelope": {
+      "from": "jaivin5454@gmail.com",
+      "to": [
+        "jaivin2525@gmail.com"
+      ]
+    },
+    "messageId": "<bf59a517-c428-55a6-a568-fe74931675d6@gmail.com>"
+  }
+]
