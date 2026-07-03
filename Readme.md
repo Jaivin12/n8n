@@ -14,14 +14,48 @@ This repository contains my notes, workflows, and projects while learning n8n au
 
 ## Learning Progress
 
-### Day 1
-- Installed Node.js
-- Installed n8n
-- Started n8n locally
-- Connected Gmail
-- Sent first automated email
-- Learned how n8n stores workflows
+## Day 1 - n8n Setup and Gmail Test Workflow
 
----
+### What I completed
 
-More updates will be added as I continue learning.
+- Set up n8n locally using Node.js and npm
+- Opened n8n on localhost
+- Created my first n8n workflow
+- Added a Manual Trigger node
+- Connected Gmail with n8n
+- Sent a test email successfully
+- Used an HTML email template
+- Documented screenshots and workflow progress
+
+### Workflow Built
+
+```text
+Manual Trigger → Gmail Send Email
+
+## Test Email
+
+I created and sent a test email using an HTML template from the Gmail node in n8n.
+
+## Key Learnings
+
+- n8n workflows are built using connected nodes.
+- Manual Trigger is useful for testing.
+- Gmail can be connected using credentials.
+- HTML email templates can be used inside the Gmail node.
+- Workflows and credentials are saved locally.
+- Workflow progress can be documented using GitHub.
+
+## Screenshots
+
+Screenshots are stored in:
+
+```text
+Day-1/Screenshots/
+
+## Workflow Export
+
+Workflow JSON files are stored in:
+
+```text
+Workflows/Day-1-Gmail-Test-Workflow.json
+
