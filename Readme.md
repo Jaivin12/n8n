@@ -49,13 +49,12 @@ I created and sent a test email using an HTML template from the Gmail node in n8
 
 Screenshots are stored in:
 
-```text
+````markdown
 Day-1/Screenshots/
 
 ## Workflow Export
 
 Workflow JSON files are stored in:
 
-```text
-Workflows/Day-1-Gmail-Test-Workflow.json
-
+````markdown
+Workflows/Day-01-Gmail-Test-Workflow.json
